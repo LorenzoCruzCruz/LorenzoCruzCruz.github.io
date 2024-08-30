@@ -1,15 +1,19 @@
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #000000; /* Black background */
+    color: #C0C0C0; /* Light gray text for readability */
 }
 
+/* Navigation Bar */
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #333;
+    background-color: #3B5323; /* Black Olive Green */
     overflow: hidden;
 }
 
@@ -19,30 +23,52 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: white;
+    color: #C0C0C0; /* Light gray text */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: #111;
+    background-color: #556B2F; /* Darker shade of olive green */
 }
 
+/* Header */
 header {
-    background-color: #f4f4f4;
+    background-color: #3B5323; /* Black Olive Green */
     padding: 20px;
     text-align: center;
+    color: #C0C0C0; /* Light gray text */
 }
 
+header h1 {
+    margin: 0;
+}
+
+/* Sections */
 section {
     padding: 20px;
     margin: 20px;
+    background-color: #1A1A1A; /* Dark gray background for sections */
+    border-radius: 5px;
 }
 
+section h1, section h2 {
+    color: #C0C0C0; /* Light gray text */
+}
+
+section a {
+    color: #8FBC8F; /* Pale green for links */
+}
+
+section a:hover {
+    color: #ADFF2F; /* Yellow-green when hovering over links */
+}
+
+/* Footer */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #3B5323; /* Black Olive Green */
+    color: #C0C0C0; /* Light gray text */
     text-align: center;
     padding: 10px;
     position: absolute;
