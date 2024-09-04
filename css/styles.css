@@ -1,11 +1,13 @@
 /* General Styling */
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif,;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #000000; /* Black background */
-    color: #C0C0C0; /* Light gray text for readability */
+    color: #D3D3D3; /* Light gray text */
 }
 
 /* Navigation Bar */
@@ -13,7 +15,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #3B5323; /* Black Olive Green */
+    background-color: #001f3f; /* Dark navy background for the navbar */
     overflow: hidden;
 }
 
@@ -23,22 +25,22 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: #C0C0C0; /* Light gray text */
+    color: #D3D3D3; /* Light gray text */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: #556B2F; /* Darker shade of olive green */
+    background-color: #001833; /* Darker shade of navy for hover effect */
 }
 
 /* Header */
 header {
-    background-color: #3B5323; /* Black Olive Green */
+    background-color: #001f3f; /* Dark navy background */
     padding: 20px;
     text-align: center;
-    color: #C0C0C0; /* Light gray text */
+    color: #FFFFFF; /* White text for the header */
 }
 
 header h1 {
@@ -49,26 +51,26 @@ header h1 {
 section {
     padding: 20px;
     margin: 20px;
-    background-color: #1A1A1A; /* Dark gray background for sections */
+    background-color: #111111; /* Very dark gray background for sections */
     border-radius: 5px;
 }
 
 section h1, section h2 {
-    color: #C0C0C0; /* Light gray text */
+    color: #FFFFFF; /* White text for headings */
 }
 
 section a {
-    color: #8FBC8F; /* Pale green for links */
+    color: #ADD8E6; /* Light blue for links */
 }
 
 section a:hover {
-    color: #ADFF2F; /* Yellow-green when hovering over links */
+    color: #87CEEB; /* Sky blue when hovering over links */
 }
 
 /* Footer */
 footer {
-    background-color: #3B5323; /* Black Olive Green */
-    color: #C0C0C0; /* Light gray text */
+    background-color: #001f3f; /* Dark navy background */
+    color: #D3D3D3; /* Light gray text */
     text-align: center;
     padding: 10px;
     position: absolute;
