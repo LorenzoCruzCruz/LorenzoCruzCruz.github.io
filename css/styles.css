@@ -6,7 +6,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #000000; /* Backkk back background */
+    background-color: #eaf4ed; /* Backkk back background */
     color: #D3D3D3; /* Light gray text */
 }
 
@@ -15,7 +15,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #01160e; /* Header navigation bar color */
+    background-color: #083d28; /* Header navigation bar color */
     overflow: hidden;
 }
 
@@ -25,22 +25,22 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: #D3D3D3; /* Light gray text */
+    color: #ffffff; /* Light gray text */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: #001833; /* Hover color of text in the box */
+    background-color: #087548; /* Hover color of text in the box */
 }
 
 /* Header */
 header {
-    background-color: #02070f; /* background of second header/title screen */
+    background-color: #dce8e3; /* background of second header/title screen */
     padding: 20px;
     text-align: center;
-    color: #FFFFFF; /* White text for the header */
+    color: #2c2828; /* White text for the header */
 }
 
 header h1 {
@@ -51,7 +51,7 @@ header h1 {
 section {
     padding: 20px;
     margin: 20px;
-    background-color: #02070f; /* Box w/ the sub sections! */
+    background-color: #1f4232; /* Box w/ the sub sections! */
     border-radius: 5px;
 }
 
