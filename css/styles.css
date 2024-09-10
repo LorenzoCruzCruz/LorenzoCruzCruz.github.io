@@ -6,7 +6,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #eaf4ed; /* Backkk back background */
+    background-color: #c9dad3; /* Backkk back background */
     color: #D3D3D3; /* Light gray text */
 }
 
@@ -15,7 +15,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #083d28; /* Header navigation bar color */
+    background-color: #000000; /* Header navigation bar color */
     overflow: hidden;
 }
 
@@ -32,12 +32,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #087548; /* Hover color of text in the box */
+    background-color: #012214; /* Hover color of text in the box */
 }
 
 /* Header */
 header {
-    background-color: #dce8e3; /* background of second header/title screen */
+    background-color: #c8d5d0; /* background of second header/title screen */
     padding: 20px;
     text-align: center;
     color: #2c2828; /* White text for the header */
@@ -51,7 +51,7 @@ header h1 {
 section {
     padding: 20px;
     margin: 20px;
-    background-color: #1f4232; /* Box w/ the sub sections! */
+    background-color: #042917; /* Box w/ the sub sections! */
     border-radius: 5px;
 }
 
@@ -81,6 +81,12 @@ section a:hover {
 
 
 
+
+
+
+
+
+
 /* Styling the components container */
 .components-container {
     display: flex;
@@ -92,7 +98,7 @@ section a:hover {
 
 /* Styling each component box */
 .component-box {
-    background-color: #111111; /* Dark background for components */
+    background-color: #527057; /* Dark background for components */
     color: #D3D3D3; /* Light gray text */
     text-align: center;
     border-radius: 10px;
