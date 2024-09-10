@@ -66,3 +66,74 @@ section a {
 section a:hover {
     color: #87CEEB; /* Sky blue when hovering over links */
 }
+
+.About-me p {
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.final-project-text p {
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+
+/* Styling the components container */
+.components-container {
+    display: flex;
+    justify-content: space-around; /* Space between each component */
+    align-items: flex-start;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    margin: 20px 0;
+}
+
+/* Styling each component box */
+.component-box {
+    background-color: #111111; /* Dark background for components */
+    color: #D3D3D3; /* Light gray text */
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 18%; /* Each component takes 18% of the width */
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for a floating effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.component-box:hover {
+    transform: translateY(-5px); /* Creates a floating hover effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* More pronounced shadow on hover */
+}
+
+/* Styling images inside component boxes */
+.component-box img {
+    width: 100%; /* Image spans the width of the component box */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Styling links and text */
+.component-box a {
+    color: #ADD8E6; /* Light blue text for links */
+    text-decoration: none;
+}
+
+.component-box a:hover {
+    color: #87CEEB; /* Sky blue when hovering over links */
+}
+
+/* Ensuring responsiveness */
+@media (max-width: 768px) {
+    .component-box {
+        width: 45%; /* Shrink boxes on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .component-box {
+        width: 100%; /* Stack boxes vertically on very small screens */
+    }
+}
