@@ -111,7 +111,7 @@ section a:hover {
 
 .component-box:hover {
     transform: translateY(-5px); /* Creates a floating hover effect */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* More pronounced shadow on hover */
+    box-shadow: 0 8px 16px rgb(64, 113, 62); /* More pronounced shadow on hover */
 }
 
 /* Styling images inside component boxes */
@@ -141,5 +141,53 @@ section a:hover {
 @media (max-width: 480px) {
     .component-box {
         width: 100%; /* Stack boxes vertically on very small screens */
+    }
+}
+
+
+
+
+/* Horizontal project links */
+.project-links {
+    display: grid;
+    flex-wrap: wrap; /* Allows the links to wrap if the screen is too small */
+    justify-content: space-around; /* Space between each link */
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #042917; /* Dark background for the link section */
+    border-radius: 10px;
+}
+
+.project-links a {
+    color: #D3D3D3; /* Light gray text */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+    justify-content: center;
+    margin: auto;
+}
+
+.project-links a:hover {
+    background-color: #023c25; /* Dark navy background on hover */
+    color: #FFFFFF; /* White text on hover */
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-links a {
+        font-size: 1em;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-links {
+        flex-direction: column; /* Stack links vertically on small screens */
+    }
+    .project-links a {
+        padding: 10px 0;
+        text-align: center;
     }
 }
