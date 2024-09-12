@@ -191,3 +191,49 @@ section a:hover {
         text-align: center;
     }
 }
+
+
+
+
+
+
+/* Styling for the About Me section */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    background-color: #111111; /* Dark background for consistency */
+    border-radius: 10px;
+}
+
+.about-photo {
+    border-radius: 50%; /* Circular photo */
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.about-text {
+    color: #D3D3D3; /* Light gray text for readability */
+    max-width: 600px;
+}
+
+.about-text p {
+    margin-bottom: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-photo {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
