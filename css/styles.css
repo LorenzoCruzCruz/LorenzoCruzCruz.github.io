@@ -99,7 +99,7 @@ section a:hover {
 /* Styling each component box */
 .component-box {
     background-color: #042917; /* Dark background for components */
-    color: #D3D3D3; /* Light gray text */
+    color: #ffffff; /* Light gray text */
     text-align: center;
     border-radius: 10px;
     padding: 10px;
@@ -111,7 +111,7 @@ section a:hover {
 
 .component-box:hover {
     transform: translateY(-5px); /* Creates a floating hover effect */
-    box-shadow: 0 8px 16px rgb(64, 113, 62); /* More pronounced shadow on hover */
+    box-shadow: 0 8px 16px rgb(0, 58, 36); /* More pronounced shadow on hover */
 }
 
 /* Styling images inside component boxes */
@@ -159,7 +159,7 @@ section a:hover {
 }
 
 .project-links a {
-    color: #D3D3D3; /* Light gray text */
+    color: #ffffff; /* Light gray text */
     padding: 10px 20px;
     text-decoration: none;
     font-size: 1.2em;
@@ -169,7 +169,7 @@ section a:hover {
 }
 
 .project-links a:hover {
-    background-color: #023c25; /* Dark navy background on hover */
+    background-color: #0b3021; /* Dark navy background on hover */
     color: #FFFFFF; /* White text on hover */
     border-radius: 5px;
 }
