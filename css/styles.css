@@ -302,3 +302,8 @@ section a:hover {
         margin-bottom: 20px;
     }
 }
+
+
+img {
+    max-width: 50%;
+}
