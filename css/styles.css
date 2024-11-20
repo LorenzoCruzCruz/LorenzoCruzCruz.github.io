@@ -326,3 +326,15 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+.embed {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    height: 600px;
+    border-radius: 2px;
+    background-color: #021c19;
+  }
